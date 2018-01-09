@@ -44,4 +44,6 @@ settings.gradle
 # IntelliJ #
 ############
 .idea
-.idea/
+.idea/out
+.out
+.gradle
