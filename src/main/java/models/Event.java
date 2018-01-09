@@ -1,8 +1,5 @@
 package models;
 
-import java.util.Arrays;
-import java.util.regex.Pattern;
-
 public class Event {
     private int guest;
     private String food;

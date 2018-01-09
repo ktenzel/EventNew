@@ -31,8 +31,13 @@ public class App {
                 Event newEvent = new Event(guestCount, foodChoice, drinkChoice, entertainmentChoice, couponCode);
                 int totalCost = newEvent.totalCost();
                 System.out.println("Great, the total cost of your event is: $" + totalCost);
+                System.out.println("You chose:");
+                System.out.println("Your food choice was: " + foodChoice);
+                System.out.println("Your drink choice was: " + drinkChoice);
+                System.out.println("Your entertainment choice was: " + entertainmentChoice);
 
                 createEvent.add(newEvent);
+                creatingEvent = false;
             } catch (IOException e) {
                 e.printStackTrace();
             }
