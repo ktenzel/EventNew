@@ -51,10 +51,15 @@ public class EventTest {
         Event testEvent = new Event(20, "Chicken", "Soda", "DJ", "");
         assertEquals(32, testEvent.calculatePlate());
     }
-
     @Test
-    public void totalCost() {
-        Event testEvent = new Event(20, "Chicken", "Soda", "DJ", "");
-        assertEquals(790, testEvent.totalCost());
+    public void calculatePlate_Spirit() {
+        Event testEvent = new Event(20, "Chicken", "Spirit", "DJ", "");
+        assertEquals(32, testEvent.calculatePlate());
     }
+
+//    @Test
+//    public void totalCost() {
+//        Event testEvent = new Event(20, "Chicken", "Soda", "DJ", "");
+//        assertEquals(790, testEvent.totalCost());
+//    }
 }
