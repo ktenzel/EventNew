@@ -41,19 +41,23 @@ public class Event {
     }
 
 
-    public int calculatePlate() {
+    public int calculateFood() {
         int plate = 30;
         if (this.food.equals("Chicken")) {
             plate = plate + 2;
-        } if (this.drink.equals("Spirits")){
-            plate = plate + 3;
         } else {
             plate = plate;
         } return plate;
     }
-
+    public int calculateDrink() {
+        int plate = calculateFood();
+     if (this.drink.equals("Spirits")) {
+        plate = plate + 3;
+    } else {
+     } return plate;
+    }
     public int totalCost() {
-        int plate = calculatePlate();
+        int plate = calculateDrink();
         Integer baseCost = plate * this.guest;
         if (this.entertainment.equals("DJ")) {
             baseCost = baseCost + 150;

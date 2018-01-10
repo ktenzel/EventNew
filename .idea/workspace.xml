@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36072e4-e8d7-4ad7-9a95-1e7d405906f5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Event.class" afterPath="$PROJECT_DIR$/out/production/classes/models/Event.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/EventTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +27,7 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="438">
               <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,8 +40,8 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="56" column="46" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="46" />
+            <state relative-caret-position="280">
+              <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
               <folding>
                 <element signature="e#509#510#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
@@ -70,8 +73,8 @@
       <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="179">
+              <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -645,34 +648,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventTest - 2018.01.09 at 20h 42m 58s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 02m 14s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 20h 52m 21s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 02m 31s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 30m 12s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 03m 35s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 34m 53s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 05m 54s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 34m 55s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 06m 20s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 37m 17s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 06m 34s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 47m 17s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 07m 04s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 50m 09s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 07m 14s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 51m 13s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 07m 34s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventTest - 2018.01.09 at 21h 51m 34s.xml">
+    <history-entry file="EventTest - 2018.01.09 at 22h 08m 34s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -700,7 +703,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -762,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="438">
           <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -773,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="56" column="46" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="46" />
+        <state relative-caret-position="280">
+          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
           <folding>
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
@@ -794,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="179">
+          <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

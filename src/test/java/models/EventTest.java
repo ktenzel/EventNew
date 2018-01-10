@@ -47,18 +47,23 @@ public class EventTest {
         assertEquals(0, testEvent.getPlate());
     }
     @Test
-    public void calculatePlate() {
+    public void calculatePlate_Vegetarian() {
+        Event testEvent = new Event(20, "Vegetarian", "Soda", "DJ", "");
+        assertEquals(30, testEvent.calculateFood());
+    }
+    @Test
+    public void calculatePlate_Chicken() {
         Event testEvent = new Event(20, "Chicken", "Soda", "DJ", "");
-        assertEquals(32, testEvent.calculatePlate());
+        assertEquals(32, testEvent.calculateFood());
     }
     @Test
     public void calculatePlate_Spirit() {
-        Event testEvent = new Event(20, "Chicken", "Spirit", "DJ", "");
-        assertEquals(32, testEvent.calculatePlate());
+        Event testEvent = new Event(20, "Chicken", "Spirits", "DJ", "");
+        assertEquals(35, testEvent.calculateDrink());
     }
     @Test
     public void calculateTotal_Cost() {
-        Event testEvent = new Event(20, "Chicken", "Spirit", "DJ", "FREE DJ");
+        Event testEvent = new Event(20, "Chicken", "Spirits", "DJ", "FREE DJ");
         assertEquals(790, testEvent.totalCost());
     }
 }
