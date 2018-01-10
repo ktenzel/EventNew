@@ -45,7 +45,7 @@ public class Event {
         int plate = 30;
         if (this.food.equals("Chicken")) {
             plate = plate + 2;
-        } else if (this.drink.equals("Spirits")){
+        } if (this.drink.equals("Spirits")){
             plate = plate + 3;
         } else {
             plate = plate;
